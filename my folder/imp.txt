@@ -1,0 +1,88 @@
+total 500 slices in a bar graph
+QS supports only windows operating system 
+DAR dashboard alalysis report
+dimnsion and 1 measure -pie chart
+qv= qvw
+qs= qvf
+bar chart stack
+synthetic key is a warning
+circular refrence- error(deadlock of tables in form of relations)
+ctrl T= internal table view
+(other one is source table view)
+if there are two tbles by default it will perform concat
+by default full outer join in both softwares
+join or keep= keep better
+keep/mapping table=mappling table better (apply  map funtion)
+if you give a column alias and jion it will cross join the tables
+agg fub=ntion in straight and pivot table?=sub total on total straight table
+tralis not applicable on straight and pivot table
+how many binary stmts(to use one qvw in other)=1 stmt only at the top
+let and set=let x=3+5 it calculates and give result
+set x=3+5 it is an expression
+best suited for scripting =all of the above (name convention,commenting,use hidden script,security script)
+good and bad performance colours=red and green (qv) qs(red ,orange,green)
+change colour of particular data=set expressions /visual cues(rgb=0to 255) 
+show total or sum of total of sales=total at the last
+examlabs.com(70 questions)
+   
+______________________________________________________________
+TERADATA
+1.most frequently used column is used as primary key
+2.create partition table syntax- 
+3.what happens when you alter the table 
+4. what is multiload-to load high volume data(multiple tables and table level locking multiload is used)
+5. syntax of macro- learn creating a macro with a separator
+6.stored procedures in teradata syntax-learn
+7.fuction in teradata to calculate length of string - characters()
+8.select name,dptid from table_name where dptid in(301,304)
+9.what does distinct do?
+10. which one require spoon file?-all type of join
+11.what is deadlock?-trying to manipulate same object at the same time(if locks aren't applied)
+12.datamarts?
+13.fallback?-copies of data is saved in all amps(if one amp fails)
+
+14.full table scan can be avoide by using where clause
+15.use of primary index- to specify in which amp the data will be sent ( to reduce query processing time)
+16.add_months(date,no of months to be added)
+17.full outer join?
+18.03:23:49PM+01:10 uery to display this output= current_timestamp(format)
+19. change data type = cast fuction
+20.how many primary index= only one 
+21. one amp operation?- Teradata uses primary index to distribute data across AMPs  
+22.BTEQ?= 
+23.Expalin command= tells us what operations in the amp are performed for a particular query
+24. top ten record?= using top or rownum
+25.info about database in teradata= help database
+26.coalesce?=COALESCE is a statement that returns the first non-null value of the expression. 
+It returns NULL if all the arguments of the expression evaluates to NULL. Following is the syntax.
+27. case?=CASE expression evaluates each row against a condition or WHEN clause and returns the result of the first match.
+ If there are no matches then the result from ELSE part of returned.
+_______________________________________________________________________________
+1.mid in qliksense?=Mid() returns the part of the input string starting at the position of the character defined by the second argument, 
+'start', and returning the number of characters defined by the third argument, 'count'. If 'count' is omitted, the rest of the input string is returned.
+ The first character in the input string is numbered 1.
+Mid(text, start[, count])
+2.selection bar in qliksense= using filter pane
+3.component not a part of asset panel= statistic panel
+4. how you publish qliksense app
+5.incremental load?
+6. distribution of group of data= distribution plot
+7.bar graph will not display single value to the total
+8. general script does no require password to be set
+9.list box cant be configured with trigger action
+10.combo chart= combinaiton of line and bar chart
+11.meaning of pivot table?
+12.all the data loaded will be stored into 2 representations = string and number
+_____________________________________________________________________
+oracle
+1.sql precentage row count=count no of no of rows
+2. view wth read only option = modifications cannot be performed in the view\
+3.%type=The %TYPE attribute lets you declare a constant, variable, field, or parameter to be of the same data type a previously declared variable, field, record, nested table, or database column. If the referenced item changes, \
+your declaration is automatically updated.
+4.sql code?=The SQLCODE field contains the SQL return code. The code can be zero (0),
+ negative or positive: 0 means that the execution was successful. 
+Negative values 
+5.left outer join= all values of left table and common of right
+6. check constraint 
+7.no data found exception?=when data is not found as expected
+8. 
